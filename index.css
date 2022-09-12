@@ -1,0 +1,43 @@
+#gameDiv{
+    font-family: 'Aerial', cursive;
+    border: 3px solid;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: lightgrey;
+    text-align: center;
+}
+.choiceBtn{
+    line-height: 30px;
+    width: 150px;
+}
+#playerText{
+    color: blue;
+}
+#computerText{
+    color: red;
+}
+html{
+    background-color: black;
+}
+
+#title{
+	border:  1px solid;
+	width: 530px;
+	padding: 25px;
+	background-color: black;
+	border-color: white;
+	box-shadow: 10px 10px 5px black;
+	color: white;
+	text-shadow: 0px 0px 5px red, 0px -5px 5px yellow;
+	text-align: center;
+	position: relative;
+	left: 370px;
+	animation: payframe;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+	
+}
+
+@keyframes payframe{
+	50% {transform: scale(0.5,0.5);}
+}
