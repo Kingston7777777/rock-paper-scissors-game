@@ -43,7 +43,7 @@ html{
 	50% {transform: scale(0.5,0.5);}
 }
 
-@media (max-width: 500px){  
+@media (max-width: 567px){  
   #title{        width: 250px;      
                  padding: 10px;        
                  position: relative;	   
