@@ -52,7 +52,7 @@ html{
 @keyframes payframe{
 	50% {transform: scale(0.5,0.5);}
 }
-@media (max-width: 771px){/*mobile*/
+@media (max-width: 775px){
     #title{
         width: 24vw;
         padding: 5px;
